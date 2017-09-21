@@ -3,3 +3,6 @@
 /TennisGameTest.class
 /TennisGameNumericalTests.class
 /TennisGameSpecialCasesTest.class
+/TennisGameNumericalScoreTests.class
+/TennisGameSpecialScoreTest.class
+/TennisGameMechanicsTest.class

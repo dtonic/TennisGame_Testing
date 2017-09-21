@@ -2,7 +2,7 @@ import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-public class TennisGameNumericalTests {
+public class TennisGameNumericalScoreTests {
 	@Test
 	public void testScore_Player1Score1Player2Score1_correctScore() throws TennisGameException {
 		//Arrange
