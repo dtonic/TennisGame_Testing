@@ -7,13 +7,7 @@ public class TennisGame {
 	private int player2Points;
 	
 	private boolean gameEnded;
-	
-	public TennisGame() {
-		player1Points = 0;
-		player2Points = 0;
-		gameEnded = false ;
-	}
-	
+		
 	private void checkGameEnded() {
 		if (player1Points>=4 && player1Points-player2Points>=2)
 			gameEnded = true;
@@ -29,6 +23,12 @@ public class TennisGame {
 		case 3: return "40";
 		default: return "40" ;
 		} 		
+	}
+	
+	public TennisGame() {
+		player1Points = 0;
+		player2Points = 0;
+		gameEnded = false ;
 	}
 	
 	public void player1Scored() throws TennisGameException {
@@ -86,6 +86,6 @@ public class TennisGame {
 			if (player2Points > 4 && player2Points - player1Points == 1)
 				return "player2 has advantage";							
 			
-			return  player2Score + " - " + player1Score ;
+			return  player1Score + " - " + player2Score ;
 	}
 }
